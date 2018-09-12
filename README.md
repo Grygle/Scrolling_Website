@@ -3,8 +3,9 @@ This project contains scrolling website which I'm currently working on. Technolo
 
 ## Content
 - Animated text 
-- Animation from sprite image
+- Animation made from sprite image
 - Parallax effect
 - Vertical scrolling
+- Turning image
 
 Content still needs improvement. It's going to be more coherent.
