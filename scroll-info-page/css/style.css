@@ -1,6 +1,6 @@
 * {
-   box-sizing : border-box;
-   margin: 0;
+    box-sizing : border-box;
+    margin: 0;
     padding: 0;
 }
 
@@ -121,6 +121,111 @@ scrolling - parallax
     background: black;
 }
 
+/*
+about me - turning image
+ */
+.about {
+    height: 100vh;
+    width: 100vw;
+}
+
+.card {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 390px;
+    height: 520px;
+    transform-style: preserve-3d;
+    perspective: 780px;
+    transition: 0.5s;
+}
+
+.card .front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transition: 0.5s;
+
+}
+.card:hover .front {
+    transform: rotateY(-180deg);
+
+}
+.card .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: 0.5s;
+
+}
+.card .back:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+
+}
+
+.card:hover .back {
+    transform: rotateY(0deg);
+
+}
+
+.card .back .details {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+
+}
+
+.card .back .details h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 36px;
+    color: #fff;
+}
+
+.card .back .details h2 span {
+    font-size: 16px;
+}
+
+.social-icons {
+    padding: 10px 0;
+    margin-right: 5px;
+}
+
+.social-icons a {
+    display: inline-block;
+    color: #fff;
+    padding: 5px 10px;
+}
+.social-icons i {
+    height: 48px;
+    width: 48px;
+}
+.social-icons a:hover {
+    color: purple;
+}
 /*
 horizontal scrolling
 */

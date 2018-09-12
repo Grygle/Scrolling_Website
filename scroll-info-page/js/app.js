@@ -94,11 +94,10 @@ $(function () {
         $(".all").append(randomClose);
         $(".all").append(randomClose2);
         $(".thin").css("background", newColor);
-
-
-
     }
 
     setInterval(changeColors,180);
+
+
 
 });
