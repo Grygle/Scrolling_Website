@@ -1,5 +1,5 @@
 # Scrolling_Website
-This project contains scrolling website which I'm currently working on. Technologies used are HTML, CSS, Javascript, jQuery.
+This project contains scrolling website which I'm currently working on.
 
 ## Content
 - Animated text 
@@ -8,4 +8,14 @@ This project contains scrolling website which I'm currently working on. Technolo
 - Vertical scrolling
 - Turning image
 
-Content still needs improvement. It's going to be more coherent.
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- jQuery
+
+## Clarification
+
+Content still requires improvement. There are some bugs going on, thus, I'm working on them and adding new content.
+
+## Screenshots
