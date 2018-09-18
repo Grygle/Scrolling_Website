@@ -127,6 +127,7 @@ about me - turning image
 .about {
     height: 100vh;
     width: 100vw;
+    background: black;
 }
 
 .card {
@@ -169,17 +170,17 @@ about me - turning image
     transition: 0.5s;
 
 }
-.card .back:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateX(-50%);
-    width: 100%;
-    height: 100%;
-    background: rgba(255,255,255,0.1);
+/*.card .back:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*transform: translateX(-50%);*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background: rgba(255,255,255,0.1);*/
 
-}
+/*}*/
 
 .card:hover .back {
     transform: rotateY(0deg);
