@@ -14,8 +14,10 @@ This project contains scrolling website which I'm currently working on.
 - JavaScript
 - jQuery
 
-## Clarification
-
-Content still requires improvement. There are some bugs going on, thus, I'm working on them and adding new content.
-
 ## Screenshots
+<img src="screenshots/screen1.png">
+<img src="screenshots/screen2.png">
+<img src="screenshots/screen3.png">
+
+## Clarification
+Content still requires improvement. There are some bugs going on, thus, I'm working on them and adding new content.
